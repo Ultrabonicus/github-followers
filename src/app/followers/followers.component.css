@@ -1,0 +1,23 @@
+.follower {
+  display: flex;
+}
+
+img {
+  border-radius: 100em;
+  width: 60px;
+  height: 60px;
+  margin-right: 14px;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+.follower+.follower {
+  margin-top: 20px;
+}
