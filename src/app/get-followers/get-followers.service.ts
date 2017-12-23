@@ -12,7 +12,7 @@ export class GetFollowersService {
   constructor(private http: HttpClient) { }
 
   public getFollowers(name: string): Observable<Follower[]> {
-    return this.http.get(`http://api.github.com/users/${name}/followers`)
+    return this.http.get(`https://api.github.com/users/${name}/followers`)
       .map(x => x as Follower[]);
   }
 }
